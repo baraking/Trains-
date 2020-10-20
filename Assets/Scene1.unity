@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 765113889}
   - component: {fileID: 765113888}
+  - component: {fileID: 765113890}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -153,7 +154,7 @@ MonoBehaviour:
   path:
     points:
     - {x: 5.27776, y: 0.1696331}
-    - {x: 7.398714, y: 1.1673731}
+    - {x: 7.169533, y: 1.5535145}
     - {x: 6.0978622, y: 3.2464712}
     - {x: 4.304103, y: 4.7552314}
     - {x: 3.036074, y: 5.821791}
@@ -166,21 +167,43 @@ MonoBehaviour:
     - {x: -5.4518957, y: 0.63573706}
     - {x: -4.5469847, y: -0.9628171}
     - {x: -3.0292494, y: -3.6439447}
-    - {x: 1.1752931, y: -4.190074}
+    - {x: 0.9751151, y: -4.1546164}
     - {x: 1.6122648, y: -1.1403162}
-    - {x: 1.8965316, y: 0.8436682}
-    - {x: -1.7943362, y: -2.0740447}
+    - {x: 1.7745482, y: -0.3725673}
+    - {x: 0.9135799, y: -0.76353234}
+    - {x: 0.15938461, y: -0.5468209}
+    - {x: -1.0234534, y: -0.2069427}
+    - {x: -1.9263133, y: -1.3089908}
     - {x: -2.2657814, y: -0.12603512}
-    - {x: -2.6500735, y: 1.4618579}
+    - {x: -2.7164195, y: 1.4443184}
     - {x: -1.1350144, y: 1.0684967}
     - {x: 0.16750216, y: 2.054669}
     - {x: 1.3034875, y: 2.9147556}
-    - {x: 1.1688604, y: 3.81908}
+    - {x: 1.3147408, y: 4.248543}
     - {x: 2.5737476, y: 3.5813744}
-    - {x: 4.719919, y: 3.218244}
-    - {x: 3.3081362, y: -0.7569181}
+    - {x: 3.2693658, y: 3.2127552}
+    - {x: 2.9799225, y: 2.7089417}
+    - {x: 2.6222744, y: 2.0076199}
+    - {x: 2.1755981, y: 1.1317201}
+    - {x: 1.0115815, y: 1.8855776}
+    - {x: 0.99575686, y: 0.9024856}
+    - {x: 0.982677, y: 0.08991265}
+    - {x: 1.5008904, y: 0.021720372}
+    - {x: 2.310056, y: -0.053757787}
+    - {x: 3.3194323, y: -0.1479114}
+    - {x: 3.1288152, y: 0.8527374}
+    - {x: 4.141881, y: 0.8152862}
+    - {x: 4.794713, y: 0.79115224}
+    - {x: 4.7504992, y: -0.21607198}
     isClosed: 1
     autoSetControlPoints: 1
+  anchorColor: {r: 1, g: 0, b: 0, a: 1}
+  controlColor: {r: 1, g: 1, b: 1, a: 1}
+  segmentColor: {r: 0, g: 1, b: 0, a: 1}
+  selectedSegmentColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  anchorDiameter: 0.1
+  controlDiameter: 0.075
+  displayControlPoints: 0
 --- !u!4 &765113889
 Transform:
   m_ObjectHideFlags: 0
@@ -195,6 +218,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &765113890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765113887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae899c136eb094a4490b5b5f07898150, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spacing: 0.1
+  resolution: 1
 --- !u!1 &842535665
 GameObject:
   m_ObjectHideFlags: 0
